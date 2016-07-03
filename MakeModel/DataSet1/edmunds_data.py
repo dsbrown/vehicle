@@ -51,7 +51,7 @@ from nested_dict import nested_dict
 
 #import re
 
-parser = argparse.ArgumentParser(description="Output Your Qualtrics result")
+parser = argparse.ArgumentParser(description="Load the django database with Make Model Year data provided by Edmunds")
 parser.add_argument("-i", "--infile",  nargs="?", dest="infile", default="Edmunds_Vehicle_Make_Model_Year.json", help="Path to the main input file")
 parser.add_argument("-c", "--checkfile", nargs="?", dest="checkfile", default="vehicle_years.json", help="Path to the list of manufacturers input file")
 #parser.add_argument("-o", "--outfile", nargs="?", dest="outfile", default="more_all_known_makes.dat", help="Path to the list of manufacturers input file")
